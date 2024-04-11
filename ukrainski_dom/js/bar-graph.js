@@ -69,6 +69,13 @@ export function updateBarGraph(data) {
         // set the percent value on the label
         percentElement.innerText = convertToPercent(probability);
     });
+
+        // Check if the className is 'class1' and probability is greater than 0.9
+        if (className === 'No Banana' && probability > 0.9) {
+            // Play the sound
+            let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
+            audio.play();
+        }
 }
 
 // This function converts a decimal number (between 0 and 1)
