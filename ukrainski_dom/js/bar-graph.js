@@ -70,7 +70,7 @@ export function updateBarGraph(data) {
         percentElement.innerText = convertToPercent(probability);
 
         // Check if the className is 'class1' and probability is greater than 0.9
-        if (className === 'No Banana' && probability > 0.99) {
+        if (className === 'No Banana' && probability == 1) {
             // Get the current timestamp
             // let now = Date.now();
             // Check if at least 2 seconds have passed since the last time the sound was played
@@ -86,20 +86,6 @@ export function updateBarGraph(data) {
             // }
         }
 
-
-        // // Check if the className is 'class1' and probability is greater than 0.9
-        // if (className === 'Ripe' && probability > 0.20) {
-        //     // Get the current timestamp
-        //     let now = Date.now();
-        //     // Check if at least 2 seconds have passed since the last time the sound was played
-        //     if (now - lastPlayed > 2000) {
-        //         // Play the sound
-        //         let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
-        //         audio.play();
-        //         // Update the lastPlayed timestamp
-        //         lastPlayed = now;
-        //     }
-        // }
     });
 
 
