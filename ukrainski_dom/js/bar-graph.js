@@ -73,24 +73,7 @@ export function updateBarGraph(data) {
         if (className === 'No Banana' && probability > 0.99) {
         // Tworzenie nowego obiektu Audio
         let audio = new Audio('./sound/Bruh.mp3');
-
-        // Funkcja, która zostanie wywołana, gdy dźwięk się zakończy
-        audio.onended = function() {
-            // Odtwarzanie tego samego dźwięku ponownie
-            audio.play();
-        };
-
-        // Odtwarzanie dźwięku po raz pierwszy
         audio.play();
-
-            // if (now - lastPlayed > 2000) {
-            //     // Play the sound
-            //     // let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
-            //     let audio = new Audio('./sound/Bruh.mp3');
-            //     audio.play();
-            //     // Update the lastPlayed timestamp
-            //     lastPlayed = now;
-            // }
         }
 
     });

@@ -27,7 +27,7 @@ section#info {
     margin-top: 20px;
 }
 section > * {
-    margin: 14px;
+    margin: 5px;
 }
 a,h1,h2 {
     text-align: center;
@@ -94,7 +94,7 @@ h2 {
 
 #graph{
     margin: 10px;
-    width: 50%;
+    width: calc(2% + 500px);
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
 }
