@@ -77,7 +77,7 @@ export function updateBarGraph(data) {
             if (now - lastPlayed > 2000) {
                 // Play the sound
                 // let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
-                let audio = new Audio('Bruh - Sound Effect (HD).mp3');
+                let audio = new Audio('./sound/Bruh - Sound Effect (HD).mp3');
                 audio.play();
                 // Update the lastPlayed timestamp
                 lastPlayed = now;
