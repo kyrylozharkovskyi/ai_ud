@@ -70,7 +70,7 @@ export function updateBarGraph(data) {
         percentElement.innerText = convertToPercent(probability);
 
         // Check if the className is 'class1' and probability is greater than 0.9
-        if (className === 'No Banana' && probability > 0.9) {
+        if (className === 'No Banana' && probability > 0.99) {
             // Play the sound
             let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
             audio.play();
