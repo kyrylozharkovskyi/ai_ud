@@ -1,5 +1,5 @@
 :root {
-    --box-size: 400px;
+    --box-size: 350px;
     --gray: #9aa0a6;
     border-radius: 20px;
 }
@@ -21,10 +21,10 @@ section {
     width:100%;
 }
 section#model {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 section#info {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 section > * {
     margin: 14px;
@@ -90,6 +90,7 @@ h2 {
     display: inline-block;
     width: var(--box-size);
     margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 #graph-wrapper > div > :first-child {
     text-align: right;
