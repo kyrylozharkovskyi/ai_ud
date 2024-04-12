@@ -74,6 +74,8 @@ export function updateBarGraph(data) {
             // Get the current timestamp
             let now = Date.now();
             // Check if at least 2 seconds have passed since the last time the sound was played
+            let audio = new Audio('./sound/Bruh.mp3');
+            audio.play();
             if (now - lastPlayed > 2000) {
                 // Play the sound
                 // let audio = new Audio('./sound/short-and-bubbly-120528.mp3');
