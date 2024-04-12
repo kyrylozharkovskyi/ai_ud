@@ -94,6 +94,7 @@ h2 {
 
 #graph{
     margin: 10px;
+    width: 50%;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
 }
