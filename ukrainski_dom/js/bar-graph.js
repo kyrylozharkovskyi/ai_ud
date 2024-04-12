@@ -3,7 +3,7 @@ let bars = {};
 let graphWrapper;
 
 // these are the colors of our bars
-let colors = ['#84d025', '#feed24', '#343112', '#1291D0'];
+let colors = ['#155201', '#feed24', '#343112', '#1291D0'];
 let lightColors = ['#FFECE2', '#FFE9EC', '#F1F0FF', '#E2F5FF'];
 
 // This function makes the bar graph
