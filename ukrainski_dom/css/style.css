@@ -70,6 +70,9 @@ h2 {
   width: 100px;
   height: 100px;
   animation: spin 2s linear infinite;
+  transform: translate(-50%, -50%);
+  justify-content: center; /* Wyśrodkowanie poziome */
+  align-items: center; /* Wyśrodkowanie pionowe */
 }
 
 @keyframes spin {
