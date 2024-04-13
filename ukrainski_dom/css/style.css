@@ -119,6 +119,17 @@ h2 {
 	animation: fadeIn 3s ease;
 	animation-name: fadeIn;
 }
+#info3{
+    margin: 10px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.584);
+    border-radius: 25px;
+    position: absolute !important;
+	bottom: 2% !important;
+	left: 2%;
+	animation: fadeIn 3s ease;
+	animation-name: fadeIn;
+}
 #result{
     display: none;
     margin: 10px;
