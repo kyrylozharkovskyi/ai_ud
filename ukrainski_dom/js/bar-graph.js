@@ -73,13 +73,12 @@ export function updateBarGraph(data) {
 
         // Check if the className is 'class1' and probability is greater than 0.9
         if (className === 'No Banana' && probability >= 0.999) {
-            const result = document.getElementById('#result');
-            result.classList.toggle('hidden');
-            // const ProjectMenu = document.querySelector('#road-picker-modal');
-            // ProjectMenu.classList.toggle('hidden');
-        // Tworzenie nowego obiektu Audio
             let audio = new Audio('./sound/Bruh.mp3');
             audio.play();
+            const result = document.getElementById('#result');
+            result.classList.toggle('hidden');
+        // Tworzenie nowego obiektu Audio
+
         }
 
     });
