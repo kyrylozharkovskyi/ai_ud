@@ -149,7 +149,7 @@ h2 {
 #graph-wrapper > div > progress::-webkit-progress-bar {
     border-radius: 5px;
     background-color: var(--color-light);
-    border: 2px solid var(--color);
+    border: 5px solid var(--color);
 }
 #graph-wrapper > div > progress::-webkit-progress-value {
     border-radius: 5px;
@@ -180,6 +180,7 @@ footer * {
 #ud-banan {
 	/* position: absolute !important; */
     opacity: 0.8;
+    /* filter: blur(10px); */
     position: absolute;
     top:50%;
     left:50%;
