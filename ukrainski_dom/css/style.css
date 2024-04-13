@@ -57,12 +57,12 @@ h2 {
     border-radius: 4px;
     overflow: hidden;
     position: relative;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .loader {
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   opacity: 0.5;
   border: 8px solid #fff700; /* Light grey */
   border-top: 8px solid #443e07; /* Blue */

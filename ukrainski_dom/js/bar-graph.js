@@ -58,7 +58,7 @@ function makeBar(label, index) {
 // [{ className:class1, probability:0.75 }, { className:class2, probability:0.25 }, ... ]
 // it uses this data to update the progress and labels of of each bar in the graph
 
-const result = document.getElementById('resalt-banan');
+
 export function updateBarGraph(data) {
     // iterate through each element in the data
     data.forEach(({ className, probability }) => {
@@ -73,8 +73,9 @@ export function updateBarGraph(data) {
 
         // Check if the className is 'class1' and probability is greater than 0.9
         if (className === 'No Banana' && probability >= 0.999) {
+            let result = document.getElementById('result-banan');
         // Tworzenie nowego obiektu Audio
-            result.style.display = 'block'; // Pokaż element
+            result.style.display == 'block'; // Pokaż element
             let audio = new Audio('./sound/Bruh.mp3');
             audio.play();
         }
