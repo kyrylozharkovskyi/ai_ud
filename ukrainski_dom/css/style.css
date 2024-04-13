@@ -96,15 +96,16 @@ h2 {
     margin: 0 10px;
 }
 #info{
+    position: absolute !important;
     margin: 10px;
-    width: calc(2% + 300px);
+    width: 350px;
+    height: 200px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
-    position: absolute !important;
-	top: 22% !important;
+	top: 50%;
+    transform: translate(-50%, -50%);
 	right: 2%;
-	animation: fadeIn 3s ease;
-	animation-name: fadeIn;
+
 }
 #info2{
     margin: 10px;
@@ -116,6 +117,19 @@ h2 {
 	left: 2%;
 	animation: fadeIn 3s ease;
 	animation-name: fadeIn;
+}
+#result{
+    display: none;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.584);
+    border-radius: 25px;
+    position: absolute !important;
+	top: 50%;
+    transform: translate(-50%, -50%);
+	right: 2%;
+
 }
 
 #graph{
@@ -163,6 +177,31 @@ footer * {
 	animation: fadeIn 3s ease;
 	animation-name: fadeIn;
 }
+#ud-banan {
+	/* position: absolute !important; */
+    opacity: 0.8;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center; /* Wyśrodkowanie pionowe */
+
+}
+
+#ud-banan_back {
+	/* position: absolute !important; */
+    opacity: 0.9;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center; /* Wyśrodkowanie pionowe */
+
+}
+
+
 
 
 @keyframes fadeIn {
