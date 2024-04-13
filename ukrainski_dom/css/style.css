@@ -96,13 +96,26 @@ h2 {
     width: var(--box-size);
     margin: 0 10px;
 }
-#info{
+#result_none{
     position: absolute !important;
     margin: 10px;
-    width: 350px;
+    width: 400px;
     height: 200px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
+	top: 10%;
+    /* transform: translate(-50%, -50%); */
+	right: 2%;
+
+}
+#result{
+    display: none;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.584);
+    border-radius: 25px;
+    position: absolute !important;
 	top: 50%;
     transform: translate(-50%, -50%);
 	right: 2%;
@@ -110,7 +123,7 @@ h2 {
 }
 #info2{
     margin: 10px;
-    width: 500px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
     position: absolute !important;
@@ -121,7 +134,7 @@ h2 {
 }
 #info3{
     margin: 10px;
-    width: 500px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
     position: absolute !important;
@@ -130,23 +143,9 @@ h2 {
 	animation: fadeIn 3s ease;
 	animation-name: fadeIn;
 }
-#result{
-    display: none;
-    margin: 10px;
-    width: 350px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.584);
-    border-radius: 25px;
-    position: absolute !important;
-	top: 50%;
-    transform: translate(-50%, -50%);
-	right: 2%;
-
-}
-
 #graph{
     margin: 10px;
-    width: calc(2% + 500px);
+    width: calc(2% + 400px);
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
 }
@@ -159,9 +158,9 @@ h2 {
     height: 28px;
 }
 #graph-wrapper > div > progress::-webkit-progress-bar {
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: var(--color-light);
-    border: 5px solid var(--color);
+    border: 3px solid var(--color);
 }
 #graph-wrapper > div > progress::-webkit-progress-value {
     border-radius: 5px;
