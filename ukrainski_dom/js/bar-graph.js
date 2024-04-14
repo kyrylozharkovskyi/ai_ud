@@ -75,10 +75,6 @@ export function updateBarGraph(data) {
         if (className === 'No Banana' && probability >= 0.999) {
             let audio = new Audio('./sound/Bruh.mp3');
             audio.play();
-            const result = document.getElementById('#result');
-            result.classList.toggle('hidden');
-        // Tworzenie nowego obiektu Audio
-
         }
 
     });
