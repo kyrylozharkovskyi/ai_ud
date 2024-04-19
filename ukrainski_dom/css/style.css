@@ -117,6 +117,7 @@ h2 {
 #result{
     margin: 10px;
     width: 400px;
+    height: 350px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
     position: absolute !important;
@@ -141,7 +142,7 @@ h2 {
 #info3{
     margin: 10px;
     width: 400px;
-    /* height: 250px; */
+    height: 350px;
     background-color: rgba(255, 255, 255, 0.584);
     border-radius: 25px;
     position: absolute !important;
@@ -206,6 +207,33 @@ footer * {
     justify-content: center; /* Wyśrodkowanie poziome */
     align-items: center; /* Wyśrodkowanie pionowe */
 
+}
+
+#ud-link {
+    /* opacity: 0.8; */
+    width: 300px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 25px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#ud-autor {
+    opacity: 0.8;
+    width: 400px;
+    border-radius: 25px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #ud-banan_back {
