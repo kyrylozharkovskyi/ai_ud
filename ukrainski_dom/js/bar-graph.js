@@ -72,8 +72,14 @@ export function updateBarGraph(data) {
         percentElement.innerText = convertToPercent(probability);
 
         // Check if the className is 'class1' and probability is greater than 0.9
-        if (className === 'Стиглий' && probability >= 0.999) {
+
+        if (className === 'Зіпсутий' && probability >= 0.999) {
             let audio = new Audio('./sound/Bruh.mp3');
+            audio.play();
+        }
+
+        if (className === 'Стиглий' && probability >= 0.999) {
+            let audio = new Audio('./sound/Anime_wow_sound_effect.mp3');
             audio.play();
         }
 
